@@ -1,1 +1,85 @@
-# link to the web page of this repo:   https://wahlly.github.io/oilCompanysite/.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="brief_project1.css">
+    <title>project-1</title>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <img src="https://res.cloudinary.com/wahlly/image/upload/v1612487105/jjjjj1_sjdmsg.png" height="50px" width="150px" alt="logo">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="banner">
+        <div class="container">
+            <div class="image">
+                <img src="https://res.cloudinary.com/wahlly/image/upload/v1612487108/jjjjjj2_efcnll.png" alt="the wonderful man" height="380px
+                " width="550px">
+            </div>
+            <div class="name">
+            <h1 id="text1">Welcome <br>to Oneoil Company</h1>
+            <button type="button" id="button1" class="button">Click here to check for your next step on this site</button></h1>
+            </br> </br>
+            
+            </div>
+        </div>
+    </section>
+
+
+    <section id="content">
+        <div class="flex-container">
+            <div class="youtube">
+                <p>About Oneoil</p>
+                s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Why do we use it?
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </div>
+            <div class="text">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DmOZEt9DwRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container4">
+            <div class="item1">
+                <img src="https://res.cloudinary.com/wahlly/image/upload/v1612487105/jjjjj1_sjdmsg.png" height="80px" width="200px" alt="logo">"
+            </div>
+            <div class="item2">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="item3">
+                Email Address<br>
+                <input  type="email" name="email" placeholder="Enter Email.">
+                <input id="submitMail" type="submit" value="submit">
+                 </br> </br>
+                <span id="approve">
+                    
+                </span>
+            </div>
+        </div>
+    </footer>
+<script src="brief_project.js"></script>
+</body>
+
+</html>
